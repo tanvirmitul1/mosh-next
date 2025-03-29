@@ -17,10 +17,10 @@ export default function Home() {
           Get started today and streamline your workflow.
         </p>
         <div className="flex gap-4 justify-center">
-          <Link href="/login">
+          <Link href="/auth/login">
             <Button className="px-6 py-3 text-lg">Login</Button>
           </Link>
-          <Link href="/signup">
+          <Link href="/auth/register">
             <Button variant="outline" className="px-6 py-3 text-lg">
               Sign Up
             </Button>
